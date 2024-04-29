@@ -19,6 +19,6 @@ Welcome to our Social Media Web Application project! This project is a web-based
 
 Have any questions or suggestions? Feel free to reach out!
 
-- Email: your-email@example.com
+- Email: ashutoshmaxxxx@gmail.com
 - LinkedIn: [Ashutosh Maurya](https://www.linkedin.com/in/ashu-maurya-9026xxxx/)
 - Twitter: [@akm_royals](https://twitter.com/akm_royals)
