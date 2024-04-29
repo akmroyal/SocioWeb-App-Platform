@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Icons Link -->
+    <script src="https://kit.fontawesome.com/c1faeadb09.js" crossorigin="anonymous"></script>
+    <!-- Css Stylesheet link -->
+    <link rel="stylesheet" href="Socialbook.css">
+    <title>A-Social-Book : Social Media Platform</title>
+</head>
+<!-- 
+    #cdb4db light pink
+    #ffb703 orange
+    99d98c greeny
+    ffcad4 pinkies
+ -->
+
+<body>
+    <!-- Navigation Start -->
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <h1 class="logo">A-Socio</h1>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" class="search" placeholder="Search for Creators, Inspirations and Projects etc">
+            </div>
+            <div class="profile-section">
+                <label for="create-post" class="creat-btn btn-primary">Create Post</label>
+                <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="proPic" srcset=""></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation End -->
+
+    <!-- Main Section Start-->
+    <main>
+        <div class="main-cont">
+            <div class="left-sidebar">
+                <div class="profile-name-list">
+                    <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="Profile"></div>
+                    <div class="name">Indramani Maurya <span>@indra</span></div>
+                </div>
+                <ul class="menu-items">
+                    <li class="item active"><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                    <li class="item"><a href="#"><i class="fa-solid fa-compass"></i><span>Explore</span></a></li>
+                    <li class="item" id="notfication"><a href="#"><span class="notification-count">9+</span><i class="fa-solid fa-bell"></i><span>Notifications</span></a></li>
+                    <li class="item message-item"><a href="#"><span class="messages-count">5</span><i class="fa-solid fa-envelope"></i><span>Messages</span></a></li>
+                    <li class="item"><a href="#"><i class="fa-solid fa-bookmark"></i><span>Bookmarks</span></a></li>
+                    <li class="item"><a href="#"><i class="fa-solid fa-chart-line"></i><span>Analytics</span></a></li>
+                    <li class="item" id="theme-btn"><a href="#"><i class="fa-solid fa-palette"></i><span>Theme</span></a></li>
+                    <li class="item"><a href="#"><i class="fa-solid fa-gear"></i><span>Setting</span></a></li>
+                </ul>
+                <!-- Notification PopUP Menu Bar  Start-->
+                <div class="notification-bar">
+                    <a href="#">
+                        <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="Profile"></div>
+                        <div class="paras"><b>Katrina Kaif</b> accepeted your friend request <small>2 DAYS AGO</small>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="Profile"></div>
+                        <div class="paras"><b>Katrina Kaif</b> accepeted your friend request <small>2 DAYS AGO</small>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="Profile"></div>
+                        <div class="paras"><b>Katrina Kaif</b> accepeted your friend request <small>2 DAYS AGO</small>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="Profile"></div>
+                        <div class="paras"><b>Katrina Kaif</b> accepeted your friend request <small>2 DAYS AGO</small>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="Profile"></div>
+                        <div class="paras"><b>Katrina Kaif</b> accepeted your friend request <small>2 DAYS AGO</small>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="profile-photo"><img src="/Resources/Profile-pic.webp" alt="Profile"></div>
+                        <div class="paras"><b>Katrina Kaif</b> accepeted your friend request <small>2 DAYS AGO</small>
+                        </div>
+                    </a>
+                </div>
+                <!-- Notification Bar Popup End -->
+                <label for="create-post" class="creat-btn btn-primary left-btn">Create Post</label>
+            </div>
+            <!-- Middle Side BAr Start -->
+            <div class="middle-bar">
+                <!-- Stories Sections start -->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-1.jpg" alt="Story">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-2.png" alt="Story">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-3.jpg" alt="Story">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-4.jpg" alt="Story">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-5.jpg" alt="Story">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-6.jpg" alt="Story">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                </div>
+                <!-- End of Stories -->
+                <form class="creat-post">
+                    <div class="profile-photo">
+                        <img src="/Resources/Profile-pic.webp" alt="Profile">
+                    </div>
+                    <input type="text" placeholder="What's on your mind?, Indra" id="create-post">
+                    <input type="submit" value="Post" class="creat-btn btn-primary">
+                </form>
+
+                <!-- Feeds & Posts -->
+                <div class="feeds">
+                    <!-- Feed 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="user-main">
+                                    <div class="profile-photo">
+                                        <img src="./Resources/story-5.jpg" alt="Post-1">
+                                    </div>
+                                    <div class="post-info">
+                                        <h3>Indra royal</h3>
+                                        <small>Dubai, 15 MINUTES AGO</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="post-photo">
+                            <img src="./Resources/feed-2.jpg" alt="Post-1">
+                        </div>
+                        <div class="action-btn">
+                            <div class="post-interaction-btns">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-regular fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark-btn">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-cont">
+                            <span><img src="./Resources/story-1.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-3.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-6.jpg" alt="liked-by"></span>
+                            <p>Liked by <b>Enial Archer</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana ROsia</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comment text-muted"><a href="#">View all 277 comments</a></div>
+                    </div>
+                    <!-- Feed 2 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="user-main">
+                                    <div class="profile-photo">
+                                        <img src="./Resources/story-3.jpg" alt="Post-1">
+                                    </div>
+                                    <div class="post-info">
+                                        <h3>Andie Russle</h3>
+                                        <small>Kolkata, 1 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="post-photo">
+                            <img src="./Resources/feed-4.jpg" alt="Post-1">
+                        </div>
+                        <div class="action-btn">
+                            <div class="post-interaction-btns">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-regular fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark-btn">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-cont">
+                            <span><img src="./Resources/story-4.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-1.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-3.jpg" alt="liked-by"></span>
+                            <p>Liked by <b>Amilie Feernas</b> and <b>33K others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Colosia</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comment text-muted"><a href="#">View all 34 comments</a></div>
+                    </div>
+                    <!-- Feed 3 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="user-main">
+                                    <div class="profile-photo">
+                                        <img src="./Resources/story-4.jpg" alt="Post-1">
+                                    </div>
+                                    <div class="post-info">
+                                        <h3>Nichle Verman</h3>
+                                        <small>Mumbai, 1 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="post-photo">
+                            <img src="./Resources/feed-6.jpg" alt="Post-1">
+                        </div>
+                        <div class="action-btn">
+                            <div class="post-interaction-btns">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-regular fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark-btn">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-cont">
+                            <span><img src="./Resources/story-6.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-5.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-4.jpg" alt="liked-by"></span>
+                            <p>Liked by <b>Enial Archer</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana ROsia</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comment text-muted"><a href="#">View all 277 comments</a></div>
+                    </div>
+                    <!-- Feed 4 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="user-main">
+                                    <div class="profile-photo">
+                                        <img src="./Resources/story-1.jpg" alt="Post-1">
+                                    </div>
+                                    <div class="post-info">
+                                        <h3>Soldier Feins dicker</h3>
+                                        <small>Urab, 8 HOURS AGO</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="post-photo">
+                            <img src="./Resources/feed-5.jpg" alt="Post-1">
+                        </div>
+                        <div class="action-btn">
+                            <div class="post-interaction-btns">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-regular fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark-btn">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-cont">
+                            <span><img src="./Resources/story-1.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-3.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-6.jpg" alt="liked-by"></span>
+                            <p>Liked by <b>Enial Archer</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana ROsia</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comment text-muted"><a href="#">View all 277 comments</a></div>
+                    </div>
+                    <!-- Feed 5 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="user-main">
+                                    <div class="profile-photo">
+                                        <img src="./Resources/story-2.png" alt="Post-1">
+                                    </div>
+                                    <div class="post-info">
+                                        <h3>Tokoyo Wernaisis</h3>
+                                        <small>Japan, 2 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="post-photo">
+                            <img src="./Resources/feed-3.jpg" alt="Post-1">
+                        </div>
+                        <div class="action-btn">
+                            <div class="post-interaction-btns">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-regular fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark-btn">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-cont">
+                            <span><img src="./Resources/story-1.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-3.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-6.jpg" alt="liked-by"></span>
+                            <p>Liked by <b>Enial Archer</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana ROsia</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comment text-muted"><a href="#">View all 277 comments</a></div>
+                    </div>
+                    <!-- Feed 6 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="user-main">
+                                    <div class="profile-photo">
+                                        <img src="./Resources/story-6.jpg" alt="Post-1">
+                                    </div>
+                                    <div class="post-info">
+                                        <h3>Aravya Maurya</h3>
+                                        <small>Lucknow, 15 MINUTES AGO</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="post-photo">
+                            <img src="./Resources/feed-1.jpg" alt="Post-1">
+                        </div>
+                        <div class="action-btn">
+                            <div class="post-interaction-btns">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-regular fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark-btn">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-cont">
+                            <span><img src="./Resources/story-1.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-3.jpg" alt="liked-by"></span>
+                            <span><img src="./Resources/story-6.jpg" alt="liked-by"></span>
+                            <p>Liked by <b>Enial Archer</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana ROsia</b> Lorem ipsum dolor sit amet. <span class="harsh-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comment text-muted"><a href="#">View all 277 comments</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Middle Side BAr Ends -->
+
+            <!-- Right Side BAr Start -->
+            <div class="right-sidebar">
+                <div class="messages">
+
+                    <div class="heading">
+                        <h4>Messages</h4><i class="fa-regular fa-message"></i>
+                    </div>
+                    <!-- Search bar -->
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search Messages..." id="message-search" />
+                    </div>
+                    <!-- Message Category -->
+                    <div class="category">
+                        <h6 class="message-active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="msg-request">Requests (5)</h6>
+                    </div>
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-2.png" alt="Profile Picture">
+                        </div>
+                        <div class="message-body">
+                            <h5>Edems Quiest</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-1.jpg" alt="Profile Picture">
+                        </div>
+                        <div class="message-body">
+                            <h5>Nichie Crusel</h5>
+                            <p class="text-muted">4+ new message</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-3.jpg" alt="Profile Picture">
+                        </div>
+                        <div class="message-body">
+                            <h5>Cindre Luc</h5>
+                            <p class="text-muted">Thxs, Goodie...❤️</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./Resources/post-3.jpg" alt="Profile Picture">
+                        </div>
+                        <div class="message-body">
+                            <h5>Cruil frenades</h5>
+                            <p class="text-muted">Lol, how funny 😂</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./Resources/post-4.jpg" alt="Profile Picture">
+                        </div>
+                        <div class="message-body">
+                            <h5>Philips D nerwo</h5>
+                            <p class="text-muted">2 new messages</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./Resources/story-6.jpg" alt="Profile Picture">
+                        </div>
+                        <div class="message-body">
+                            <h5>Emilie Jacson</h5>
+                            <p class="text-muted">Where r U babe</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of messages -->
+
+                <!-- Friends Request-->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="upper-section">
+                                <div class="profile-photo">
+                                    <img src="./Resources/story-2.png" alt="img">
+                                </div>
+                                <div>
+                                    <h5>Kuldeep Verma</h5>
+                                    <p class="text-muted">8 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="upper-section">
+                                <div class="profile-photo">
+                                    <img src="./Resources/post-4.jpg" alt="img">
+                                </div>
+                                <div>
+                                    <h5>Mr. Abhi</h5>
+                                    <p class="text-muted">35+ mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="upper-section">
+                                <div class="profile-photo">
+                                    <img src="./Resources/story-4.jpg" alt="img">
+                                </div>
+                                <div>
+                                    <h5>Sundram Agrwl</h5>
+                                    <p class="text-muted">3 mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="upper-section">
+                                <div class="profile-photo">
+                                    <img src="./Resources/story-6.jpg" alt="img">
+                                </div>
+                                <div>
+                                    <h5>Russi Angle</h5>
+                                    <p class="text-muted">840+ mutual friends</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of right side -->
+            <div class="theme-blury-effect">
+                <div class="theme-popup-section">
+                    <div class="heading-text">
+                        <h3>Customize your View</h3>
+                        <h5>Manage your font size color and background.</h5>
+                    </div>
+                    <div class="coustmizer-btns">
+                        <div class="font-theme-btn">
+                            <h5>Font Size</h5>
+                            <div class="size-scaler">
+                                <h6>Aa</h6>
+                                <div class="choose-font">
+                                    <span class="font-size-1"></span>
+                                    <span class="font-size-2"></span>
+                                    <span class="font-size-3"></span>
+                                    <span class="font-size-4"></span>
+                                    <span class="font-size-5"></span>
+                                </div>
+                                <h3>Aa</h3>
+                            </div>
+                        </div>
+                        <div class="color-theme-btn">
+                            <h5>Color</h5>
+                            <div class="color-pickers">
+                                <span class="color-1"></span>
+                                <span class="color-2"></span>
+                                <span class="color-3"></span>
+                                <span class="color-4"></span>
+                                <span class="color-5"></span>
+                            </div>
+                        </div>
+                        <div class="background-theme-btn">
+                            <h5>Background</h5>
+                            <div class="bgcolor-btn">
+                                <div class="light-btn mode-btn">Light</div>
+                                <div class="dim-btn mode-btn">Dim</div>
+                                <div class="Lights-out-btn mode-btn">Lights Out</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Main section End-->
+    <script src="Socialbook.js"></script>
+
+</body>
+
+</html>
