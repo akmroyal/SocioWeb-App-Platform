@@ -2,6 +2,9 @@
 
 Welcome to our Social Media Web Application project! This project is a web-based platform designed to facilitate social networking and interaction between users. Built using HTML, CSS, and JavaScript, our application offers a range of features to connect users and foster community engagement.
 
+## See Live Design
+- [LIVE DEMO](https://akmroyal.github.io/SocioWeb-App-Platform/)
+
 ## Features
 
 - **Profile Management**: Users can create and customize their profiles, including uploading profile pictures and updating personal information.
